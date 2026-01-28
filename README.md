@@ -50,13 +50,13 @@ The app is implemented in **Python** using **Streamlit** for the frontend and **
 ```bash
 git clone https://github.com/Khushibung05/Ensemble_learning.git
 cd Ensemble_learning
-Install dependencies
 
+2. **Install dependencies**
+```bash
 pip install -r requirements.txt
 Run the Streamlit app
 
-streamlit run app.py
-📈 How to Use
+## 📈 How to Use
 Enter applicant information in the sidebar:
 
 Applicant Income
@@ -75,7 +75,7 @@ Property Area
 
 Click “Check Loan Eligibility (Stacking Model)”
 
-View:
+## View:
 
 Base model predictions
 
@@ -83,7 +83,7 @@ Final stacking decision
 
 Confidence score
 
-Business explanation
+## Business explanation
 
 🙌 Business Impact
 This system helps lenders evaluate loan applications with improved accuracy by combining different models. It provides interpretability and stability for financial decision-making.
